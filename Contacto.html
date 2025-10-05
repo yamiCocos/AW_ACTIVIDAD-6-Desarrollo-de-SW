@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contactos</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a href=""><img src="imagenes/logoo.png" alt=""></a>
+            <h1>Global Lingua</h1>
+            <nav>
+                <ul>
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Cursos</a></li>
+                    <li><a href="">Sucursales</a></li>
+                    <li><a href="">Contactos</a></li>
+                </ul>
+            </nav>
+        </header>
+            <main>
+                <article>
+                    <h1>Formulario para Aspirantes</h1>
+                    <form action="" method="post">
+                        <fieldset>
+                            <legend>Datos Personales</legend>
+                            <label for="nombre" >Nombre completo</label>
+                            <input type="text" name="nombre" placeholder="Ingresa tu nombre completo" required> 
+                            <br>
+                            <label for="edad">Edad</label>
+                            <input type="number" name="Edad" min="0" max="120">
+                            <br>
+                            <label for="fecha">Fecha de nacimiento</label>
+                            <input type="date" name="fecha">
+                            <br>
+                            <label for="Correo">Correo Electronico</label>
+                            <input type="text" name="Correo" placeholder="usuario@dominio.com" required>
+                            <br>
+                            <label for="estudios">Constancia de estudios</label>
+                            <input type="file" name="foto">
+                            <br>
+                            <label for="gen">Genero</label> 
+                            <input type="radio" name="gen"> femenino
+                            <input type="radio" name="gen"> masculino
+                            <input type="radio" name="gen"> Otro
+                            <br>
+                        </fieldset>
+                        <FIeldset>
+                            <legend>Curso de su elecciòn</legend>
+                            <label for="Curso">Curso</label>
+                            <input type="checkbox" name="Ingles"> Ingles 
+                            <input type="checkbox" name="Frances"> Frances
+                            <input type="checkbox" name="Aleman"> Aleman
+                            <br>
+                            <label for="Nivel">Nivel del Curso</label>
+                            <input type="checkbox" name="Principiante"> rojo 
+                            <input type="checkbox" name="Intermedio"> verde
+                            <input type="checkbox" name="Avanzado"> azul
+                            <input type="checkbox" name="No conozco mi Nivel"> negro
+                            <br>
+                            <label for="Ciudad">Ciudad</label>
+                            <select name="Ciudad" id="Ciudad"> 
+                            <option value="1">Leon</option>
+                            <option value="2">Monterrey</option>
+                            <option value="3">Guadalajara</option>
+                            <option value="4">Ciudad de Mexico</option>
+                            </select>
+                        </FIeldset>
+                        <br>
+                        <input type="submit" value="Enviar">
+                    </form>
+                </article>
+            </main>
+    </body>
+</html>
+
